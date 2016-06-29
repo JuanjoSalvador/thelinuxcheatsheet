@@ -33,27 +33,27 @@
 |:---------:|:---------:|:-------------------------------------|
 |**adduser** | | Añade un usuario. |
 |**deluser** | | Elimina un usuario. |
-|passwd | | Permite cambiar la contraseña del usuario actual. |
-|whoami | | Imprime el nombre del usuario actual. |
-|who | | Imprime una lista de usuarios con sesión iniciada. |
+|**passwd** | | Permite cambiar la contraseña del usuario actual. |
+|**whoami** | | Imprime el nombre del usuario actual. |
+|**who** | | Imprime una lista de usuarios con sesión iniciada. |
 ---
 
 ### Procesos
 
 | Comando   | Argumento | Descripción                          |
 |:---------:|:---------:|:-------------------------------------|
-|top | | Muestra en tiempo real los procesos en ejecución. |
-|ps | opción | Muestra los procesos en ejecución. Ejemplo: ps -e |
-|pidof | proceso | Muestra el PID del proceso indicado. |
-|kill| PID | Mata un proceso por PID. |
-|killall | nombre | Mata un proceso y todos sus hijos, por nombre. |
+| **top** | | Muestra en tiempo real los procesos en ejecución. |
+|**ps** | opción | Muestra los procesos en ejecución. Ejemplo: ps -e |
+|**pidof** | proceso | Muestra el PID del proceso indicado. |
+|**kill**| PID | Mata un proceso por PID. |
+|**killall** | nombre | Mata un proceso y todos sus hijos, por nombre. |
 ---
 
 ### Discos
 | Comando   | Argumento | Descripción                          |
 |:---------:|:---------:|:-------------------------------------|
-|mount |unidad, destino | Monta la unidad especificada. Puede ser una unidad física o lógica. Ejemplo: mount /dev/sda1 /mnt/disk|
-|umount | unidad | Desmonta la unidad especificada. Ejemplo: umount /dev/sda1|
+|**mount** |unidad, destino | Monta la unidad especificada. Puede ser una unidad física o lógica. Ejemplo: mount /dev/sda1 /mnt/disk|
+|**umount** | unidad | Desmonta la unidad especificada. Ejemplo: umount /dev/sda1|
 ---
 
 
@@ -63,10 +63,10 @@ Los filtros son comandos especiales que suelen ir concatenados a otro comando.
 
 | Filtro    | Descripción                          |
 |:---------:|:-------------------------------------|
-|more | Filtra el contenido mostrado por pantalla hacia adelante.|
-|less | Contrario a more.|
-|sort | Ordena el contenido alfábéticamente.|
-|grep | Filtra el argumento siguiendo un patrón.|
+|**more** | Filtra el contenido mostrado por pantalla hacia adelante.|
+|**less** | Contrario a more.|
+|**sort** | Ordena el contenido alfábéticamente.|
+|**grep** | Filtra el argumento siguiendo un patrón.|
 ---
 
 ### Pipes, redireccionamientos y operadores
