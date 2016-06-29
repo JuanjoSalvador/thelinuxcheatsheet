@@ -1,6 +1,6 @@
 # The Linux Cheatsheet
 
-Hoja de referencia rápida de los comandos más usados en sistemas UNIX. Creada por Juanjo Salvador ([@Linuxneitor](http://twitter.com/Linuxneitor)
+Hoja de referencia rápida de los comandos más usados en sistemas UNIX. Creada por Juanjo Salvador ([@Linuxneitor](http://twitter.com/Linuxneitor))
 
 ### Versiones
 
