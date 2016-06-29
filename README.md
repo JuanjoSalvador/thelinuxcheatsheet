@@ -1,4 +1,4 @@
-# The Linux Cheatsheet v2.0
+# The Linux Cheatsheet
 
 Hoja de referencia rápida de los comandos más usados en sistemas UNIX.
 
@@ -12,6 +12,10 @@ La edición Sysadmin, por otro lado, contiene además comandos específicos para
 * [The Linux Sysadmin Cheatsheet]()
 * [The Linux Cheatsheet v2 (PDF)](http://juanjosalvador.es/TheLinuxCheatsheet-v2.pdf)
 * [The Linux Sysadmin Cheatsheet (PDF)]()
+ 
+### Actualizaciones
+
+Cada vez que los cambios con respecto a la versión anterior sean significativos, se actualizará versión PDF.
 
 ### Contribuye
 
