@@ -10,7 +10,7 @@ La edición Sysadmin, por otro lado, contiene además comandos específicos para
 
 * [The Linux Cheatsheet v2]()
 * [The Linux Sysadmin Cheatsheet]()
-* [The Linux Cheatsheet v2 (PDF)](juanjosalvador.es/TheLinuxCheatsheet-v2.pdf)
+* [The Linux Cheatsheet v2 (PDF)](http://juanjosalvador.es/TheLinuxCheatsheet-v2.pdf)
 * [The Linux Sysadmin Cheatsheet (PDF)]()
 
 ### Contribuye
