@@ -2,8 +2,12 @@
 
 1. [Comandos auxiliares](#comandos-auxiliares)
 2. [Archivos y directorios](#archivos-y-directorios)
-3. [Comandos auxiliares](#comandos-auxiliares)
-4. [Comandos auxiliares](#comandos-auxiliares)
+3. [Usuarios](#usuarios)
+4. [Procesos](#procesos)
+5. [Discos](#discos)
+6. [Filtros](#filtros)
+7. [Pipes, redireccionamientos y operadores](#pipes-redireccionamientos-y-operadores)
+
 
 ### Comandos auxiliares
 
