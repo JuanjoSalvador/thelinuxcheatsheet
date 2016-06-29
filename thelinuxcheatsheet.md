@@ -1,6 +1,6 @@
 # The Linux Cheatsheet v2.0
 
-## Comandos auxiliares
+### Comandos auxiliares
 
 | Comando | Argumento | Descripción                          |
 |:-------:|:---------:|:------------------------------------|
@@ -8,7 +8,7 @@
 | **man** | comando   | Imprime el manual del comando especificado (si existe).
 ---
 
-## Archivos y directorios
+### Archivos y directorios
 
 | Comando   | Argumento | Descripción                          |
 |:---------:|:---------:|:-------------------------------------|
@@ -27,4 +27,60 @@
 | **chown** | usuario, destino | Cambia el propietario del fichero o directorio indicado. |
 ---
 
-##### Esta obra se distribuye libremente bajo licencia GNU GPLv3. Puedes obtener una copia de esta hoja de referencia en PDF aquí.
+### Usuarios
+
+| Comando   | Argumento | Descripción                          |
+|:---------:|:---------:|:-------------------------------------|
+|**adduser** | | Añade un usuario. |
+|**deluser** | | Elimina un usuario. |
+|passwd | | Permite cambiar la contraseña del usuario actual. |
+|whoami | | Imprime el nombre del usuario actual. |
+|who | | Imprime una lista de usuarios con sesión iniciada. |
+---
+
+### Procesos
+
+| Comando   | Argumento | Descripción                          |
+|:---------:|:---------:|:-------------------------------------|
+|top | | Muestra en tiempo real los procesos en ejecución. |
+|ps | opción | Muestra los procesos en ejecución. Ejemplo: ps -e |
+|pidof | proceso | Muestra el PID del proceso indicado. |
+|kill| PID | Mata un proceso por PID. |
+|killall | nombre | Mata un proceso y todos sus hijos, por nombre. |
+---
+
+### Discos
+| Comando   | Argumento | Descripción                          |
+|:---------:|:---------:|:-------------------------------------|
+|mount |unidad, destino | Monta la unidad especificada. Puede ser una unidad física o lógica. Ejemplo: mount /dev/sda1 /mnt/disk|
+|umount | unidad | Desmonta la unidad especificada. Ejemplo: umount /dev/sda1|
+---
+
+
+### Filtros
+
+Los filtros son comandos especiales que suelen ir concatenados a otro comando.
+
+| Filtro    | Descripción                          |
+|:---------:|:-------------------------------------|
+|more | Filtra el contenido mostrado por pantalla hacia adelante.|
+|less | Contrario a more.|
+|sort | Ordena el contenido alfábéticamente.|
+|grep | Filtra el argumento siguiendo un patrón.|
+---
+
+### Pipes, redireccionamientos y operadores
+
+Los pipes, redireccionamientos y operadores son símbolos reservados que nos ayudan a concatenar comandos.
+
+| Operador | Descripción                                                               |
+|:--------:|:--------------------------------------------------------------------------|
+| `>`  | Redirecciona la salida del comando hacia otro comando o fichero.              |
+| `>>` | Funciona como >, pero si se manda a un fichero, no sobreescribe.              |
+| `<`  | Redirecciona un fichero como entrada para un comando.                         |
+| `&&` | Operador AND. Si el primer comando finaliza con éxito, ejecuta el siguiente.  |
+| `||` | Operador OR. Si el primer comando NO finaliza con éxito, ejecuta el siguiente.|
+| `|`  | Enviando la salida del primer comando como argumento al segundo.              |
+---
+
+**Esta obra se distribuye libremente bajo licencia GNU GPLv3.**
