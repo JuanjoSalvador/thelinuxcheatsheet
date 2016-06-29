@@ -1,34 +1,26 @@
 # The Linux Cheatsheet v2.0
 
-## Comandos auxiliares
+Hoja de referencia rápida de los comandos más usados en sistemas UNIX.
 
-| Comando | Argumento | Descripción                          |
-|:-------:|:---------:|:------------------------------------|
-| **sudo**| comando   | Ejecuta un comando como superusuario |
-| **man** | comando   | Imprime el manual del comando especificado (si existe).
----
+### Versiones
 
-## Archivos y directorios
+La edición normal está destinada a usuarios novatos/intermedios. Contiene todos aquellos comandos que serán de utilidad a un usuario normal de UNIX y que quiera introducirse en la consola.
 
-| Comando   | Argumento | Descripción                          |
-|:---------:|:---------:|:-------------------------------------|
-| **ls**    |opcion, directorio | Lista el directorio indicado, por defecto, el actual. |
-| **mkdir** | ruta      | Crea un directorio en la ruta especificada. Si solo se le pasa un nombre, lo crea en la ruta actual. |
-| **cd**    | ruta      | Cambia de directorio a la ruta indicada. |
-| **pwd**   |           | Imprime la ruta actual. |
-| **cp**    | origen, destino | Copia un fichero a otra ruta. Para copiar un directorio completo, hazlo recursivo con cp -r. |
-| **mv** | origen, destino | Mueve un directorio o fichero a la ruta indicada. |
-| **rm** | fichero o directorio | Elimina el fichero o directorio indicado. Para borrar un directorio que no esté vacío, hazlo recursivo con rm -r.  |
-| **cat** | fichero | Imprime por pantalla el contenido del fichero indicado. |
-| **find** | ruta, opcion, palabra clave| Busca en la ruta indicada todos los ficheros que contengan la palabra clave. |
-| **whereis** | fichero | Similar a find, pero asume que conoces el nombre del fichero. |
-| **ln** | origen, destino | Crea un enlace duro o simbólico del fichero o directorio. |
-| **chmod** | opciones, destino | Cambia los permisos del directorio o fichero indicados. |
-| **chown** | usuario, destino | Cambia el propietario del fichero o directorio indicado. |
----
+La edición Sysadmin, por otro lado, contiene además comandos específicos para administradores de sistemas o usarios más avanzados, como gestión de paquetes, acceso mediante SSH a sitios remotos, etc.
 
+* [The Linux Cheatsheet v2]()
+* [The Linux Sysadmin Cheatsheet]()
 
+* [The Linux Cheatsheet v2 (PDF)]()
+* [The Linux Sysadmin Cheatsheet (PDF)]()
 
-Juan José Salvador Piedra (@Linuxneitor) – http://juanjosalvador.es/
+### Contribuye
 
-Esta obra se distribuye libremente bajo licencia GNU GPLv3. Puedes obtener una copia de esta hoja de referencia en PDF aquí.
+Se aceptan las siguientes contribuciones:
+
+* Corrección de ortografía.
+* Corrección de descripción.
+* Añadir nuevos comandos.
+* Eliminar comandos poco conocidos/usados.
+
+Todos los cambios se pide que primero pasen por una issue para ser aprobados antes de abrir pull request.
