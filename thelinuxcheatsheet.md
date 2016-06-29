@@ -1,5 +1,10 @@
 # The Linux Cheatsheet v2.0
 
+1. [Comandos auxiliares](#comandos-auxiliares)
+2. [Archivos y directorios](#archivos-y-directorios)
+3. [Comandos auxiliares](#comandos-auxiliares)
+4. [Comandos auxiliares](#comandos-auxiliares)
+
 ### Comandos auxiliares
 
 | Comando | Argumento | Descripción                          |
