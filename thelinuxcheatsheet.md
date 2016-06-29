@@ -27,8 +27,4 @@
 | **chown** | usuario, destino | Cambia el propietario del fichero o directorio indicado. |
 ---
 
-
-
-Juan José Salvador Piedra (@Linuxneitor) – http://juanjosalvador.es/
-
-Esta obra se distribuye libremente bajo licencia GNU GPLv3. Puedes obtener una copia de esta hoja de referencia en PDF aquí.
+##### Esta obra se distribuye libremente bajo licencia GNU GPLv3. Puedes obtener una copia de esta hoja de referencia en PDF aquí.
