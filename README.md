@@ -8,7 +8,7 @@ La edición normal está destinada a usuarios novatos/intermedios. Contiene todo
 
 La edición Sysadmin, por otro lado, contiene además comandos específicos para administradores de sistemas o usarios más avanzados, como gestión de paquetes, acceso mediante SSH a sitios remotos, etc.
 
-* [The Linux Cheatsheet v2]()
+* [The Linux Cheatsheet v2](https://github.com/JuanjoSalvador/thelinuxcheatsheet/blob/master/thelinuxcheatsheet.md)
 * [The Linux Sysadmin Cheatsheet]()
 * [The Linux Cheatsheet v2 (PDF)](http://juanjosalvador.es/TheLinuxCheatsheet-v2.pdf)
 * [The Linux Sysadmin Cheatsheet (PDF)]()
