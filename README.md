@@ -24,3 +24,10 @@ Se aceptan las siguientes contribuciones:
 * Eliminar comandos poco conocidos/usados.
 
 Todos los cambios se pide que primero pasen por una issue para ser aprobados antes de abrir pull request.
+
+### Licencia
+
+El contenido que puedes encontrar en este repositorio está liberado bajo licencia GNU GPL v3.
+Las ediciones en PDF se encuentran bajo licencia CreativeCommons BY SA 4.0.
+
+Ver [LICENSE](https://github.com/JuanjoSalvador/thelinuxcheatsheet/blob/master/LICENSE)
