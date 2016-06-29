@@ -1,6 +1,6 @@
 # The Linux Cheatsheet
 
-Hoja de referencia rápida de los comandos más usados en sistemas UNIX.
+Hoja de referencia rápida de los comandos más usados en sistemas UNIX. Creada por Juanjo Salvador ([@Linuxneitor](http://twitter.com/Linuxneitor)
 
 ### Versiones
 
@@ -18,6 +18,8 @@ La edición Sysadmin, por otro lado, contiene además comandos específicos para
 Cada vez que los cambios con respecto a la versión anterior sean significativos, se actualizará versión PDF.
 
 ### Contribuye
+
+Si estás interesado/a en contribuir con The Linux Cheatsheet, pásate [por la rama `development`](https://github.com/JuanjoSalvador/thelinuxcheatsheet/tree/development).
 
 Se aceptan las siguientes contribuciones:
 
