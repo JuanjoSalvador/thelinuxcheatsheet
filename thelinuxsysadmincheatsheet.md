@@ -1,5 +1,23 @@
 # The Linux Sysadmin Cheatsheet
 
+1. [Comandos auxiliares](#comandos-auxiliares)
+2. [Archivos y directorios](#archivos-y-directorios)
+3. [Usuarios](#usuarios)
+4. [Procesos](#procesos)
+5. [Discos](#discos)
+6. [Gestión de paquetes](#gestión-de-paquetes)
+  1. [APT](#apt)
+  2. [YUM](#yum)
+  3. [Zypper](#zypper)
+  4. [Pacman](#pacman)
+  5. [dpkg](#dpkg)
+  6. [RPM Package Manager](#rpm-package-manager)
+7. [Compresión y descompresión](#compresión-y-descompresión)
+  1. [Compresion](#compresión)
+  2. [Descompresión](#descompresión)
+8. [Filtros](#filtros)
+9. [Pipes, redireccionamientos y operadores](#pipes-redireccionamientos-y-operadores)
+
 ### Comandos auxiliares
 
 | Comando | Argumento | Descripción                          |
@@ -59,12 +77,42 @@
 ### Gestión de paquetes
 
 #### APT
+Distribuciones basadas en Debian/Ubuntu
 
 #### YUM
+Distribuciones basadas en RH Linux/Fedora
 
 #### Zypper
+Distribuciones basadas en SUSE Linux/OpenSUSE
 
 #### Pacman
+Distribuciones basadas en Arch Linux
+
+#### dpkg
+Gestor de paquetes DEB
+
+#### RPM Package Manager
+Gestor depaquetes RPM
+
+---
+
+### Compresión y descompresión
+
+#### Compresión
+| Comando   | Argumento | Descripción                          |
+|:---------:|:---------:|:-------------------------------------|
+|**zip**    |           |                                      |
+|**tar**    |           | GZ                                   |
+|**tar**    |           | BZ2                                  |
+
+
+#### Descompresión
+| Comando   | Argumento | Descripción                          |
+|:---------:|:---------:|:-------------------------------------|
+|**unzip**  |           |                                      |
+|**tar**    |           | GZ                                   |
+|**tar**    |           | BZ2                                  |
+---
 
 ### Filtros
 
