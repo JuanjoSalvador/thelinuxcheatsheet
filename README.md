@@ -28,7 +28,7 @@ Se aceptan las siguientes contribuciones:
 * Añadir nuevos comandos.
 * Eliminar comandos poco conocidos/usados.
 
-Todos los cambios se pide que primero pasen por una issue para ser aprobados antes de abrir pull request.
+Todos los cambios requieren que primero se pase por una issue para ser aprobados antes de abrir pull request.
 
 ### Licencia
 
