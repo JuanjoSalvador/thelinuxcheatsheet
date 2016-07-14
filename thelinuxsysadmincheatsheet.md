@@ -67,7 +67,7 @@
 |**pidof** | proceso | Muestra el PID del proceso indicado. |
 |**kill**| PID | Mata un proceso por PID. |
 |**killall** | nombre | Mata un proceso y todos sus hijos, por nombre. |
-|**fuser** | puerto | Muestra qué proceso está escuchando por el puerto indicado |
+|**fuser** | puerto/procotolo | Muestra el PID del proceso que está escuchando por el puerto indicado. Ejemplo: 80/tcp |
 ---
 
 ### Discos
