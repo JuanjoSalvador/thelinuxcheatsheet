@@ -102,11 +102,11 @@ Gestor depaquetes RPM
 ### Compresión y descompresión
 
 #### Compresión
-| Comando   | Argumento       | Descripción                                                                  |
-|:---------:|:---------------:|:-----------------------------------------------------------------------------|
-|**zip**    | destino, origen | Comprime el directorio o fichero indicado en ZIP                             |
-|**tar**    |                 | Empaqueta en formato TAR y comprime el directorio o fichero indicado en GZip |
-|**tar**    |                 | Empaqueta en formato TAR y comprime el directorio o fichero indicado en BZ2  |
+| Comando    | Argumento       | Descripción                                                                  |
+|:-----------:|:---------------:|:-----------------------------------------------------------------------------|
+|**zip**      | destino, origen | Comprime el directorio o fichero indicado en ZIP                             |
+|**tar -zcvf**| destino.tar.gz, origen | Empaqueta en formato TAR y comprime el directorio o fichero origen en GZip |
+|**tar -cvjf** | destino.tar.bz2, origen | Empaqueta en formato TAR y comprime el directorio o fichero origen en BZ2  |
 
 
 #### Descompresión
