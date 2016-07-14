@@ -43,6 +43,8 @@
 | **ln** | origen, destino | Crea un enlace duro o simbólico del fichero o directorio. |
 | **chmod** | opciones, destino | Cambia los permisos del directorio o fichero indicados. |
 | **chown** | usuario, destino | Cambia el propietario del fichero o directorio indicado. |
+| **head** | opción, fichero | Muestra las primeras líneas del fichero indicado. |
+| **tail** | opción, fichero | Muestra las últimas líneas del fichero indicado. |
 ---
 
 ### Usuarios
