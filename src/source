@@ -22,6 +22,7 @@
 | **cat** | fichero | Imprime por pantalla el contenido del fichero indicado. |
 | **find** | ruta, opcion, palabra clave| Busca en la ruta indicada todos los ficheros que contengan la palabra clave. |
 | **whereis** | fichero | Similar a find, pero asume que conoces el nombre del fichero. |
+| **which** | comando | Da la ruta absoluta en el sistema de archivos de un comando o un ejecutable
 | **ln** | origen, destino | Crea un enlace duro o simbólico del fichero o directorio. |
 | **chmod** | opciones, destino | Cambia los permisos del directorio o fichero indicados. |
 | **chown** | usuario, destino | Cambia el propietario del fichero o directorio indicado. |
