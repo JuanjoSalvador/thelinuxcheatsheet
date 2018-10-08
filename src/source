@@ -20,6 +20,7 @@
 | **mv** | origen, destino | Mueve un directorio o fichero a la ruta indicada. |
 | **rm** | fichero o directorio | Elimina el fichero o directorio indicado. Para borrar un directorio que no esté vacío, hazlo recursivo con rm -r.  |
 | **cat** | fichero | Imprime por pantalla el contenido del fichero indicado. |
+| **tail** | fichero | Imprime por pantalla las últimas líneas del fichero indicado. Se puede indicar el número de líneas con el argumento -n (por ejemplo -n 1000). |
 | **find** | ruta, opcion, palabra clave| Busca en la ruta indicada todos los ficheros que contengan la palabra clave. |
 | **whereis** | fichero | Similar a find, pero asume que conoces el nombre del fichero. |
 | **which** | comando | Da la ruta absoluta en el sistema de archivos de un comando o un ejecutable
@@ -67,7 +68,8 @@ Los filtros son comandos especiales que suelen ir concatenados a otro comando.
 |**more** | Filtra el contenido mostrado por pantalla hacia adelante.|
 |**less** | Contrario a more.|
 |**sort** | Ordena el contenido alfábéticamente.|
-|**grep** | Filtra el argumento siguiendo un patrón.|
+|**grep** | Filtra el argumento siguiendo un patrón. |
+|**zgrep** | Igual que grep pero para ficheros comprimidos con gzip. |
 ---
 
 ### Pipes, redireccionamientos y operadores
