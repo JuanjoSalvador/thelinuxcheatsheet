@@ -88,6 +88,7 @@ Los pipes, redireccionamientos y operadores son símbolos reservados que nos ayu
 | `>>` | Funciona como >, pero si se manda a un fichero, no sobreescribe.              |
 | `<`  | Redirecciona un fichero como entrada para un comando.                         |
 | `&&` | Operador AND. Si el primer comando finaliza con éxito, ejecuta el siguiente.  |
+| `&`  | Ampersand. Ejecuta el comando anterior en segundo plano, puede concatenarse.  |
 ---
 
 **Esta obra se distribuye libremente bajo licencia GNU GPLv3.**
