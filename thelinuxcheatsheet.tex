@@ -1,0 +1,137 @@
+\section{The Linux Cheatsheet v2.0}\label{the-linux-cheatsheet-v2.0}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \protect\hyperlink{comandos-auxiliares}{Comandos auxiliares}
+\item
+  \protect\hyperlink{archivos-y-directorios}{Archivos y directorios}
+\item
+  \protect\hyperlink{usuarios}{Usuarios}
+\item
+  \protect\hyperlink{procesos}{Procesos}
+\item
+  \protect\hyperlink{discos}{Discos}
+\item
+  \protect\hyperlink{filtros}{Filtros}
+\item
+  \protect\hyperlink{pipes-redireccionamientos-y-operadores}{Pipes,
+  redireccionamientos y operadores}
+\end{enumerate}
+
+\hypertarget{comandos-auxiliares}{\subsubsection{Comandos
+auxiliares}\label{comandos-auxiliares}}
+
+\textbar{} Comando \textbar{} Argumento \textbar{} Descripción
+\textbar{}
+\textbar{}:-------:\textbar{}:---------:\textbar{}:------------------------------------\textbar{}
+\textbar{} \textbf{sudo}\textbar{} comando \textbar{} Ejecuta un comando
+como superusuario \textbar{} \textbar{} \textbf{man} \textbar{} comando
+\textbar{} Imprime el manual del comando especificado (si existe). ---
+
+\hypertarget{archivos-y-directorios}{\subsubsection{Archivos y
+directorios}\label{archivos-y-directorios}}
+
+\textbar{} Comando \textbar{} Argumento \textbar{} Descripción
+\textbar{}
+\textbar{}:---------:\textbar{}:---------:\textbar{}:-------------------------------------\textbar{}
+\textbar{} \textbf{ls} \textbar{}opcion, directorio \textbar{} Lista el
+directorio indicado, por defecto, el actual. \textbar{} \textbar{}
+\textbf{mkdir} \textbar{} ruta \textbar{} Crea un directorio en la ruta
+especificada. Si solo se le pasa un nombre, lo crea en la ruta actual.
+\textbar{} \textbar{} \textbf{cd} \textbar{} ruta \textbar{} Cambia de
+directorio a la ruta indicada. \textbar{} \textbar{} \textbf{pwd}
+\textbar{} \textbar{} Imprime la ruta actual. \textbar{} \textbar{}
+\textbf{cp} \textbar{} origen, destino \textbar{} Copia un fichero a
+otra ruta. Para copiar un directorio completo, hazlo recursivo con cp
+-r. \textbar{} \textbar{} \textbf{mv} \textbar{} origen, destino
+\textbar{} Mueve un directorio o fichero a la ruta indicada. \textbar{}
+\textbar{} \textbf{rm} \textbar{} fichero o directorio \textbar{}
+Elimina el fichero o directorio indicado. Para borrar un directorio que
+no esté vacío, hazlo recursivo con rm -r. \textbar{} \textbar{}
+\textbf{cat} \textbar{} fichero \textbar{} Imprime por pantalla el
+contenido del fichero indicado. \textbar{} \textbar{} \textbf{find}
+\textbar{} ruta, opcion, palabra clave\textbar{} Busca en la ruta
+indicada todos los ficheros que contengan la palabra clave. \textbar{}
+\textbar{} \textbf{whereis} \textbar{} fichero \textbar{} Similar a
+find, pero asume que conoces el nombre del fichero. \textbar{}
+\textbar{} \textbf{ln} \textbar{} origen, destino \textbar{} Crea un
+enlace duro o simbólico del fichero o directorio. \textbar{} \textbar{}
+\textbf{chmod} \textbar{} opciones, destino \textbar{} Cambia los
+permisos del directorio o fichero indicados. \textbar{} \textbar{}
+\textbf{chown} \textbar{} usuario, destino \textbar{} Cambia el
+propietario del fichero o directorio indicado. \textbar{} ---
+
+\hypertarget{usuarios}{\subsubsection{Usuarios}\label{usuarios}}
+
+\textbar{} Comando \textbar{} Argumento \textbar{} Descripción
+\textbar{}
+\textbar{}:---------:\textbar{}:---------:\textbar{}:-------------------------------------\textbar{}
+\textbar{}\textbf{adduser} \textbar{} \textbar{} Añade un usuario.
+\textbar{} \textbar{}\textbf{deluser} \textbar{} \textbar{} Elimina un
+usuario. \textbar{} \textbar{}\textbf{passwd} \textbar{} \textbar{}
+Permite cambiar la contraseña del usuario actual. \textbar{}
+\textbar{}\textbf{whoami} \textbar{} \textbar{} Imprime el nombre del
+usuario actual. \textbar{} \textbar{}\textbf{who} \textbar{} \textbar{}
+Imprime una lista de usuarios con sesión iniciada. \textbar{} ---
+
+\hypertarget{procesos}{\subsubsection{Procesos}\label{procesos}}
+
+\textbar{} Comando \textbar{} Argumento \textbar{} Descripción
+\textbar{}
+\textbar{}:---------:\textbar{}:---------:\textbar{}:-------------------------------------\textbar{}
+\textbar{} \textbf{top} \textbar{} \textbar{} Muestra en tiempo real los
+procesos en ejecución. \textbar{} \textbar{}\textbf{ps} \textbar{}
+opción \textbar{} Muestra los procesos en ejecución. Ejemplo: ps -e
+\textbar{} \textbar{}\textbf{pidof} \textbar{} proceso \textbar{}
+Muestra el PID del proceso indicado. \textbar{}
+\textbar{}\textbf{kill}\textbar{} PID \textbar{} Mata un proceso por
+PID. \textbar{} \textbar{}\textbf{killall} \textbar{} nombre \textbar{}
+Mata un proceso y todos sus hijos, por nombre. \textbar{} ---
+
+\hypertarget{discos}{\subsubsection{Discos}\label{discos}}
+
+\textbar{} Comando \textbar{} Argumento \textbar{} Descripción
+\textbar{}
+\textbar{}:---------:\textbar{}:---------:\textbar{}:-------------------------------------\textbar{}
+\textbar{}\textbf{mount} \textbar{}unidad, destino \textbar{} Monta la
+unidad especificada. Puede ser una unidad física o lógica. Ejemplo:
+mount /dev/sda1 /mnt/disk\textbar{} \textbar{}\textbf{umount} \textbar{}
+unidad \textbar{} Desmonta la unidad especificada. Ejemplo: umount
+/dev/sda1\textbar{} ---
+
+\hypertarget{filtros}{\subsubsection{Filtros}\label{filtros}}
+
+Los filtros son comandos especiales que suelen ir concatenados a otro
+comando.
+
+\textbar{} Filtro \textbar{} Descripción \textbar{}
+\textbar{}:---------:\textbar{}:-------------------------------------\textbar{}
+\textbar{}\textbf{more} \textbar{} Filtra el contenido mostrado por
+pantalla hacia adelante.\textbar{} \textbar{}\textbf{less} \textbar{}
+Contrario a more.\textbar{} \textbar{}\textbf{sort} \textbar{} Ordena el
+contenido alfábéticamente.\textbar{} \textbar{}\textbf{grep} \textbar{}
+Filtra el argumento siguiendo un patrón.\textbar{} ---
+
+\hypertarget{pipes-redireccionamientos-y-operadores}{\subsubsection{Pipes,
+redireccionamientos y
+operadores}\label{pipes-redireccionamientos-y-operadores}}
+
+Los pipes, redireccionamientos y operadores son símbolos reservados que
+nos ayudan a concatenar comandos.
+
+\textbar{} Operador \textbar{} Descripción \textbar{}
+\textbar{}:--------:\textbar{}:--------------------------------------------------------------------------\textbar{}
+\textbar{} \texttt{\textgreater{}} \textbar{} Redirecciona la salida del
+comando hacia otro comando o fichero. \textbar{} \textbar{}
+\texttt{\textgreater{}\textgreater{}} \textbar{} Funciona como
+\textgreater{}, pero si se manda a un fichero, no sobreescribe.
+\textbar{} \textbar{} \texttt{\textless{}} \textbar{} Redirecciona un
+fichero como entrada para un comando. \textbar{} \textbar{}
+\texttt{\&\&} \textbar{} Operador AND. Si el primer comando finaliza con
+éxito, ejecuta el siguiente. \textbar{} \textbar{} \texttt{\&}
+\textbar{} Ampersand. Ejecuta el comando anterior en segundo plano,
+puede concatenarse. \textbar{} ---
+
+\textbf{Esta obra se distribuye libremente bajo licencia GNU GPLv3.}
