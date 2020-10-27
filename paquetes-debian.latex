@@ -1,0 +1,127 @@
+\section{Gestión de paquetes en distribuciones basadas en
+Debian}\label{gestiuxf3n-de-paquetes-en-distribuciones-basadas-en-debian}
+
+\subsection{APT en Debian, Ubuntu, Linux Mint, y sus diferentes
+sabores}\label{apt-en-debian-ubuntu-linux-mint-y-sus-diferentes-sabores}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \protect\hyperlink{instalaciuxf3n-y-desinstalaciuxf3n-de-paquetes}{Instalación
+  y desinstalación de paquetes}
+\item
+  \protect\hyperlink{actualizaciuxf3n-de-paquetes}{Actualización de
+  paquetes}
+\item
+  \protect\hyperlink{limpieza}{Limpieza}
+\end{enumerate}
+
+\hypertarget{instalaciuxf3n-y-desinstalaciuxf3n-de-paquetes}{\subsubsection{Instalación
+y desinstalación de
+paquetes}\label{instalaciuxf3n-y-desinstalaciuxf3n-de-paquetes}}
+
+\begin{longtable}[c]{@{}lcl@{}}
+\toprule
+\begin{minipage}[b]{0.16\columnwidth}\raggedright\strut
+Subcomando
+\strut\end{minipage} &
+\begin{minipage}[b]{0.16\columnwidth}\centering\strut
+Argumento
+\strut\end{minipage} &
+\begin{minipage}[b]{0.49\columnwidth}\raggedright\strut
+Descripción
+\strut\end{minipage}\tabularnewline
+\midrule
+\endhead
+\begin{minipage}[t]{0.16\columnwidth}\raggedright\strut
+install
+\strut\end{minipage} &
+\begin{minipage}[t]{0.16\columnwidth}\centering\strut
+nombre del paquete
+\strut\end{minipage} &
+\begin{minipage}[t]{0.49\columnwidth}\raggedright\strut
+Descarga e instala el paquete indicado desde los repositorios
+\strut\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.16\columnwidth}\raggedright\strut
+remove
+\strut\end{minipage} &
+\begin{minipage}[t]{0.16\columnwidth}\centering\strut
+nombre del paquete
+\strut\end{minipage} &
+\begin{minipage}[t]{0.49\columnwidth}\raggedright\strut
+Desinstala el paquete, si este se encuentra instalado en el sistema
+\strut\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+\hypertarget{actualizaciuxf3n-de-paquetes}{\subsubsection{Actualización
+de paquetes}\label{actualizaciuxf3n-de-paquetes}}
+
+\begin{longtable}[c]{@{}ll@{}}
+\toprule
+\begin{minipage}[b]{0.20\columnwidth}\raggedright\strut
+Subcomando
+\strut\end{minipage} &
+\begin{minipage}[b]{0.51\columnwidth}\raggedright\strut
+Descripción
+\strut\end{minipage}\tabularnewline
+\midrule
+\endhead
+\begin{minipage}[t]{0.20\columnwidth}\raggedright\strut
+update
+\strut\end{minipage} &
+\begin{minipage}[t]{0.51\columnwidth}\raggedright\strut
+Actualiza los paquetes disponibles desde los repositorios
+\strut\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.20\columnwidth}\raggedright\strut
+upgrade
+\strut\end{minipage} &
+\begin{minipage}[t]{0.51\columnwidth}\raggedright\strut
+Actualiza los paquetes instalados en el sistema a la versión más
+reciente de los repositorios locales
+\strut\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.20\columnwidth}\raggedright\strut
+dist-upgrade
+\strut\end{minipage} &
+\begin{minipage}[t]{0.51\columnwidth}\raggedright\strut
+Realiza una actualización completa, incluyendo versión de la
+distribución, si hubiese
+\strut\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+\hypertarget{limpieza}{\subsubsection{Limpieza}\label{limpieza}}
+
+\begin{longtable}[c]{@{}ll@{}}
+\toprule
+\begin{minipage}[b]{0.18\columnwidth}\raggedright\strut
+Subcomando
+\strut\end{minipage} &
+\begin{minipage}[b]{0.51\columnwidth}\raggedright\strut
+Descripción
+\strut\end{minipage}\tabularnewline
+\midrule
+\endhead
+\begin{minipage}[t]{0.18\columnwidth}\raggedright\strut
+autoremove
+\strut\end{minipage} &
+\begin{minipage}[t]{0.51\columnwidth}\raggedright\strut
+Desinstala los paquetes que ya no son necesarios (generalmente
+utilizados para distintas dependencias)
+\strut\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.18\columnwidth}\raggedright\strut
+autoclean
+\strut\end{minipage} &
+\begin{minipage}[t]{0.51\columnwidth}\raggedright\strut
+Borra la caché de paquetes disponibles cuya versión sea anterior al
+actualmente instalado, tras un \texttt{upgrade}
+\strut\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.18\columnwidth}\raggedright\strut
+clean
+\strut\end{minipage} &
+\begin{minipage}[t]{0.51\columnwidth}\raggedright\strut
+Borra completamente la caché de paquetes disponibles
+\strut\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
